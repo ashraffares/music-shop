@@ -3,6 +3,10 @@ nav {
     font-family: "HelveticaNeue-Light"; 
 }
 
+.nav {
+    z-index: 99;
+}
+
 .nav-logo {
     color: #fff;
 }
