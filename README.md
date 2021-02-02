@@ -1,12 +1,16 @@
-![TNW](https://user-images.githubusercontent.com/37639594/105220349-42c31000-5b60-11eb-9061-95509ac37a01.png)
+![cover](https://user-images.githubusercontent.com/37639594/106650699-e1f1f980-659b-11eb-8349-86ed7ff9455a.png)
 
-Clone of the The Next Web website page putting emphasis on how it behaves differently depending on the size of the screen.
+this a capstone project from microverse i personlized and i make it insertmental store with two pages main and search.
+
+## Design owner
+- Mohammed Awad
 
 ## Built With
 
 - HTML5
 - CSS
 - Media querry
+- bootstrap
 
 
 ## Live Demo
