@@ -1,47 +1,47 @@
 nav {
-    background-color: #383838;
-    font-family: "HelveticaNeue-Light"; 
+  background-color: #383838;
+  font-family: "HelveticaNeue-Light";
 }
 
 .nav {
-    z-index: 99;
+  z-index: 99;
 }
 
 .nav-logo {
-    color: #fff;
+  color: #fff;
 }
 
 .nav-logo:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .color-g {
-    color: #888;
+  color: #888;
 }
 
 .color-w {
-    color: #fff;
+  color: #fff;
 }
 
 .color-g:hover {
-    color: #D35266;
+  color: #d35266;
 }
 
 .nav-btn {
-    background-color: #D35266;
-    color: #fff;
+  background-color: #d35266;
+  color: #fff;
 }
 
 header {
-    background-color: #D35266;
-    height: 200px;
+  background-color: #d35266;
+  height: 200px;
 }
 
 .header-btn {
-    color: #fff;
-    background-color: #383838;
+  color: #fff;
+  background-color: #383838;
 }
 
 .color-p {
-    color: #D35266;
+  color: #d35266;
 }
