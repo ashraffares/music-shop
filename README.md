@@ -17,7 +17,6 @@ this a capstone project from microverse i personlized and i make it insertmental
 
 
 
-
 ### Prerequisites
 Knowledge about HTML and CSS.
 HTML Semantic elements.
