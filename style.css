@@ -1,6 +1,5 @@
 nav {
   background-color: #383838;
-  font-family: "HelveticaNeue-Light";
 }
 
 .nav {
@@ -34,14 +33,14 @@ nav {
 
 header {
   background-color: #d35266;
-  height:230px;
+  height: 230px;
 }
 
 .header {
   height:50vh;
   background-image: url("assets/bg.gif");
   background-size: cover;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
 
 .header-btn {
@@ -65,14 +64,14 @@ header {
   animation: bounce 1s forwards;
 }
 
-
 @keyframes bounce {
   0% {
-    transform: translatex(0px);
+    transform: translateX(0px);
   }
+  
   100% {
     color: #d35266;
-    transform: translatex(65px);
+    transform: translateX(65px);
   }
 }
 
