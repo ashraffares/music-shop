@@ -18,7 +18,7 @@ https://ashraffares.github.io/week4pro/
 
 
 
-g### Prerequisites
+### Prerequisites
 Knowledge about HTML and CSS.
 HTML Semantic elements.
 CSS flex property.
