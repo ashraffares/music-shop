@@ -15,11 +15,6 @@ this a capstone project from microverse i personlized and i make it insertmental
 
 ## Live Demo
 
-HEAD TO
-[TNW PROJECT](https://ashraffares.github.io/TNW/)
-=======
-
-
 
 
 
@@ -48,7 +43,7 @@ Media querry
 
 
 To get a local copy up and running follow these simple example steps.
-- Clone this repository with: git clone ```https://github.com/ashraffares/TNW.git``` using your terminal or command line.
+- Clone this repository with: git clone ```https://github.com/ashraffares/week4pro.git``` using your terminal or command line.
 - Change to the project directory by entering : <br>
 ```cd NYTproject``` in the terminal .
 

@@ -34,7 +34,14 @@ nav {
 
 header {
   background-color: #d35266;
-  height: 200px;
+  height:230px;
+}
+
+.header {
+  height:50vh;
+  background-image: url("assets/bg.gif");
+  background-size: cover;
+  background-repeat: no-repeat
 }
 
 .header-btn {
@@ -44,4 +51,31 @@ header {
 
 .color-p {
   color: #d35266;
+}
+
+.bg-color {
+  background-color: #d35266;
+}
+
+.card {
+  box-shadow: 4px 9px 5px #aaa;
+}
+
+.animate:hover {
+  animation: bounce 1s forwards;
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translatex(0px);
+  }
+  100% {
+    color: #d35266;
+    transform: translatex(65px);
+  }
+}
+
+.img-gray:hover {
+  filter: grayscale(80%);
 }
