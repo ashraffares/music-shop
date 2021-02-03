@@ -3,8 +3,8 @@
 
 
 ## search page
-![cover](![searchpage](https://user-images.githubusercontent.com/37639594/106750098-10211900-6630-11eb-9303-7649cfffc740.png)
-)
+![cover](https://user-images.githubusercontent.com/37639594/106750098-10211900-6630-11eb-9303-7649cfffc740.png)
+
 
 this is an e-commerce site with only two pages the main page and search page it's basically an instruments shop.
 
