@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-  <title></title>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
+  <title>music shop</title>
+  <!-- Required meta tags -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -20,10 +20,10 @@
 
   <nav class="d-flex flex-row justify-content-between  p-2 mb-3 position-fixed top-0 w-100 nav">
     <div>
-      <a href="main.html" class="text-decoration-none px-2 nav-logo">JAZZIT UP</a>
+      <a href="main.html" class="lead text-decoration-none px-2 nav-logo font-weight-bolder">JAZZIT UP</a>
       <a href="" class="text-decoration-none color-g px-lg-2">
-        <i class="fas fa-home-lg-alt px-lg-2"></i>
-        <span>HOME</span>
+        <i class="fas fa-home-lg-alt px-lg-2 color-p"></i>
+        <span class="color-p">HOME</span>
       </a>
       <a href="" class="text-decoration-none d-none d-sm-none d-md-inline color-g px-lg-2">
         <i class="fas fa-th-large px-lg-2"></i>
@@ -59,7 +59,7 @@
         </datalist>
         <input type="text" class="p-2 mx-1" placeholder="What do you search for?">
         <input type="text" class="p-2" placeholder="tools & books">
-        <a href="search.html"> <button type="button" class="px-3 py-2 mx-2 header-btn">Search</button></a>
+        <a href="search.html" class="px-3 py-2 mx-2 header-btn text-decoration-none text-white">Search</a>
 
       </div>
     </div>
@@ -79,8 +79,8 @@
           <p class="color-g"><span>By:</span> John Doe </p>
           <p class="color-g"><span>Location:</span>Alex Egypt</p>
           <div>
-            <button class=" nav-btn border px-3 py-2 font-weight-bolder rounded">450$</button>
-            <button class=" nav-btn border px-3 py-2 font-weight-bolder rounded">
+            <button type="button" class=" nav-btn border px-3 py-2 font-weight-bolder rounded">450$</button>
+            <button type="button" class=" nav-btn border px-3 py-2 font-weight-bolder rounded">
               <i class="far fa-shopping-cart"></i>
               PURCHASE DETAIL
             </button>
@@ -95,13 +95,15 @@
   </section>
 
   <section class="section1 bg-light my-5">
-    <h6 class="p-2 my-auto ml-5"><i class="fas fa-drum color-g pr-2"></i>instruments</h6>
+    <h6 class="p-2 my-auto ml-5 animate"><i class="fas fa-drum color-g pr-2"></i>instruments</h6>
     <hr>
     <div class=" d-flex flex-row justify-content-between">
       <a href="" class="my-auto"><i class="fas fa-chevron-left text-secondary px-3"></i></a>
 
-      <div class="col-lg-2 bg-white border d-none d-sm-none d-md-block">
-        <img src="assets/p1.jpg" alt="" class="w-100" style="height:55%;">
+
+      <div class="col-lg-2 bg-white border d-none d-sm-none d-md-block card">
+        <img src="assets/p1.jpg" alt="" class="w-100 img-gray" style="height:55%;">
+
         <div>
           <h6 class="">6 string electrical guitar</h6>
           <h6 class="color-p font-weight-bold">New</h6>
@@ -124,8 +126,10 @@
 
 
       </div>
-      <div class="col-lg-2  bg-white border d-none d-sm-none d-md-block">
-        <img src="assets/p2.jpeg" alt="" class="w-100" style="height:55%;">
+
+      <div class="col-lg-2  bg-white border d-none d-sm-none d-md-block card">
+        <img src="assets/p2.jpeg" alt="" class="w-100 img-gray" style="height:55%;">
+
         <div>
           <h6 class="">6 string electrical guitar</h6>
           <h6 class="color-p font-weight-bold">New</h6>
@@ -147,8 +151,9 @@
         </div>
 
       </div>
-      <div class="col-lg-2  bg-white border 	d-none d-sm-block">
-        <img src="assets/p3.jfif" alt="" class="w-100" style="height:55%;">
+      <div class="col-lg-2  bg-white border 	d-none d-sm-block card">
+        <img src="assets/p3.jfif" alt="" class="w-100 img-gray" style="height:55%;">
+
         <div>
           <h6 class="">6 string electrical guitar</h6>
           <h6 class="color-p font-weight-bold">New</h6>
@@ -170,8 +175,9 @@
         </div>
 
       </div>
-      <div class="col-lg-2 bg-white border">
-        <img src="assets/p4.jpg" alt="" class="w-100" style="height:55%;">
+      <div class="col-lg-2 bg-white border card">
+        <img src="assets/p4.jpg" alt="" class="w-100 img-gray" style="height:55%;">
+
         <div>
           <h6 class="">6 string electrical guitar</h6>
           <h6 class="color-p font-weight-bold">New</h6>
@@ -194,15 +200,18 @@
 
       </div>
       <a href="" class="my-auto"><i class="fas fa-chevron-right text-secondary px-3"></i></a>
+    </div>
   </section>
 
   <section class="section2 bg-light">
-    <h6 class="p-2 my-auto ml-5"><i class="fas fa-books color-g pr-2"></i>Books</h6>
+
+    <h6 class="p-2 my-auto ml-5 animate"><i class="fas fa-books color-g pr-2"></i>Books</h6>
     <hr>
     <div class=" d-flex flex-row justify-content-between " style="height: 350px;">
       <a href="" class="my-auto"><i class="fas fa-chevron-left text-secondary px-3"></i></a>
-      <div class="col-lg-2 bg-white border d-none d-sm-none d-md-block">
-        <img src="assets/p5.jpg" alt="" class="w-100" style="height:55%;">
+      <div class="col-lg-2 bg-white border d-none d-sm-none d-md-block card">
+        <img src="assets/p5.jpg" alt="" class="w-100 img-gray" style="height:55%;">
+
         <div>
           <h6 class="">6 string electrical guitar</h6>
           <h6 class="color-p font-weight-bold">New</h6>
@@ -225,8 +234,9 @@
 
 
       </div>
-      <div class="col-lg-2 bg-white border d-none d-sm-none d-md-block">
-        <img src="assets/p6.jpg" alt="" class="w-100" style="height:55%;">
+      <div class="col-lg-2 bg-white border d-none d-sm-none d-md-block card">
+        <img src="assets/p6.jpg" alt="" class="w-100 img-gray" style="height:55%;">
+
         <div>
           <h6 class="">6 string electrical guitar</h6>
           <h6 class="color-p font-weight-bold">New</h6>
@@ -248,8 +258,9 @@
         </div>
 
       </div>
-      <div class="col-lg-2 bg-white border d-none d-sm-block">
-        <img src="assets/p7.jfif" alt="" class="w-100" style="height:55%;">
+      <div class="col-lg-2 bg-white border d-none d-sm-block card">
+        <img src="assets/p7.jfif" alt="" class="w-100 img-gray" style="height:55%;">
+
         <div>
           <h6 class="">6 string electrical guitar</h6>
           <h6 class="color-p font-weight-bold">New</h6>
@@ -271,8 +282,9 @@
         </div>
 
       </div>
-      <div class="col-lg-2 bg-white border">
-        <img src="assets/p8.jpg" alt="" class="w-100" style="height:55%;">
+      <div class="col-lg-2 bg-white border card">
+        <img src="assets/p8.jpg" alt="" class="w-100 img-gray" style="height:55%;">
+
         <div>
           <h6 class="">6 string electrical guitar</h6>
           <h6 class="color-p font-weight-bold">New</h6>
@@ -300,12 +312,13 @@
   </section>
 
   <section class="section3 bg-light my-5">
-    <h6 class="p-2 my-auto ml-5 rounded"><i class="fas fa-toolbox color-g pr-2"></i>Tolls</h6>
+    <h6 class="p-2 my-auto ml-5 rounded animate"><i class="fas fa-toolbox color-g pr-2"></i>Tolls</h6>
     <hr>
     <div class=" d-flex flex-row justify-content-between " style="height: 350px;">
       <a href="" class="my-auto"><i class="fas fa-chevron-left text-secondary px-3"></i></a>
-      <div class="col-lg-2 bg-white border d-none d-sm-none d-md-block ">
-        <img src="assets/p9.jpg" alt="" class="w-100" style="height:55%;">
+      <div class="col-lg-2 bg-white border d-none d-sm-none d-md-block card">
+        <img src="assets/p9.jpg" alt="" class="w-100 img-gray" style="height:55%;">
+
         <div>
           <h6 class="">6 string electrical guitar</h6>
           <h6 class="color-p font-weight-bold">New</h6>
@@ -328,8 +341,9 @@
 
 
       </div>
-      <div class="col-lg-2 bg-white border d-none d-sm-none d-md-block">
-        <img src="assets/p10.jpg" alt="" class="w-100" style="height:55%;">
+      <div class="col-lg-2 bg-white border d-none d-sm-none d-md-block card">
+        <img src="assets/p10.jpg" alt="" class="w-100 img-gray" style="height:55%;">
+
         <div>
           <h6 class="">6 string electrical guitar</h6>
           <h6 class="color-p font-weight-bold">New</h6>
@@ -351,8 +365,10 @@
         </div>
 
       </div>
-      <div class="col-lg-2 bg-white border d-none d-sm-block">
-        <img src="assets/p11.jpg" alt="" class="w-100" style="height:55%;">
+
+      <div class="col-lg-2 bg-white border d-none d-sm-block card">
+        <img src="assets/p11.jpg" alt="" class="w-100 img-gray" style="height:55%;">
+
         <div>
           <h6 class="">6 string electrical guitar</h6>
           <h6 class="color-p font-weight-bold">New</h6>
@@ -374,8 +390,9 @@
         </div>
 
       </div>
-      <div class="col-lg-2 bg-white border">
-        <img src="assets/p12.jpg" alt="" class="w-100" style="height:55%;">
+      <div class="col-lg-2 bg-white border card">
+        <img src="assets/p12.jpg" alt="" class="w-100 img-gray" style="height:55%;">
+
         <div>
           <h6 class="">6 string electrical guitar</h6>
           <h6 class="color-p font-weight-bold">New</h6>
@@ -407,7 +424,7 @@
       <div class="container-fluid ">
         <div class="row mx-auto">
           <div class="p-3 col-lg-9 col-md-12  ">
-            <h3 href="" class="text-decoration-none text-center text-muted ">JAZZIT UP</h3>
+            <h3 class="text-decoration-none text-center text-muted ">JAZZIT UP</h3>
             <p class="mx-auto text-muted text-center">Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
               printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
@@ -447,7 +464,6 @@
       <div class="row">
         <p class="mx-auto text-muted ">copyright © 2021 All right reserved</p>
       </div>
-
     </div>
   </footer>
 

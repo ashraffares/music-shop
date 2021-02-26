@@ -1,6 +1,12 @@
+## main page
 ![cover](https://user-images.githubusercontent.com/37639594/106650699-e1f1f980-659b-11eb-8349-86ed7ff9455a.png)
 
-this a capstone project from microverse i personlized and i make it insertmental store with two pages main and search.
+
+## search page
+![cover](https://user-images.githubusercontent.com/37639594/106750098-10211900-6630-11eb-9303-7649cfffc740.png)
+
+
+this is an e-commerce site with only two pages the main page and search page it's basically an instruments shop.
 
 ## Design owner
 - Mohammed Awad
@@ -15,7 +21,6 @@ this a capstone project from microverse i personlized and i make it insertmental
 
 ## Live Demo
 https://ashraffares.github.io/week4pro/
-
 
 
 ### Prerequisites

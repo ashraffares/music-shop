@@ -1,47 +1,80 @@
 nav {
-    background-color: #383838;
-    font-family: "HelveticaNeue-Light"; 
+  background-color: #383838;
 }
 
 .nav {
-    z-index: 99;
+  z-index: 99;
 }
 
 .nav-logo {
-    color: #fff;
+  color: #fff;
 }
 
 .nav-logo:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .color-g {
-    color: #888;
+  color: #888;
 }
 
 .color-w {
-    color: #fff;
+  color: #fff;
 }
 
 .color-g:hover {
-    color: #D35266;
+  color: #d35266;
 }
 
 .nav-btn {
-    background-color: #D35266;
-    color: #fff;
+  background-color: #d35266;
+  color: #fff;
 }
 
 header {
-    background-color: #D35266;
-    height: 200px;
+  background-color: #d35266;
+  height: 230px;
+}
+
+.header {
+  height: 50vh;
+  background-image: url("assets/bg.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header-btn {
-    color: #fff;
-    background-color: #383838;
+  color: #fff;
+  background-color: #383838;
 }
 
 .color-p {
-    color: #D35266;
+  color: #d35266;
+}
+
+.bg-color {
+  background-color: #d35266;
+}
+
+.card {
+  box-shadow: 4px 9px 5px #aaa;
+}
+
+.animate:hover {
+  animation: bounce 1s forwards;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    color: #d35266;
+    transform: translateX(65px);
+  }
+}
+
+.img-gray:hover {
+  filter: grayscale(80%);
 }
